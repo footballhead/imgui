@@ -1,0 +1,4 @@
+project(imgui_examples_sdl_opengl2)
+
+add_executable(imgui_sdl_opengl2_example main.cpp)
+target_link_libraries(imgui_sdl_opengl2_example imgui_impl_sdl_opengl2)
